@@ -1,10 +1,5 @@
 name: Python Katas Testing
 
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   PythonKatas:
     runs-on: ubuntu-latest
