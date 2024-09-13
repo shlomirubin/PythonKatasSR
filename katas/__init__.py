@@ -4,7 +4,7 @@ katas = [
 
     'hello_world.py',                   # function structure
     'hello_world2.py',                  # str type, concat
-    'numbers_division.py'               # int and float types
+    'numbers_division.py',               # int and float types
     'personalized_hello_world.py',      # function arguments
     'age_message_fix.py',                   # dynamically typed, can't concat str + int.
     'get_seconds.py',                   # math operators
@@ -18,11 +18,10 @@ katas = [
 
     # if simple
 
-    'fill_a_cab.py'                     # simple if 
-    'time_convertor.py'                 # if, ==, elif 
-    'is_even.py'                        # bool
-    'can_drive.py'                      # and 
-    'can_drive2.py'                     # or operators
-    'assess_temperature.py'             # if, elif, else
-
+    'fill_a_cab.py',                     # simple if  # TODO explain syntax
+    'time_convertor.py',                 # if, ==, elif
+    'is_even.py',                        # bool
+    'can_drive.py',                      # and
+    'can_drive2.py',                     # or operators
+    'assess_temperature.py',             # if, elif, else
 ]
