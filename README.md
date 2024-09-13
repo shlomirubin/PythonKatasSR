@@ -8,13 +8,11 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 
 ## Katas
 
-Fork and clone this repo. 
-
 > [!TIP]
-> - Click double SHIFT to search katas files in PyCharm.
+> - Work on your own fork.
 > - Mark the complete kata in \[x], commit and push. 
 > - Solve the katas in the below suggested order.
-
+> - Click double SHIFT to search katas files in PyCharm.
 
 
 - [ ] `hello_world.py`
