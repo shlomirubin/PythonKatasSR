@@ -50,9 +50,9 @@ jobs:
         run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)
           cd katas
-          python test/${{ matrix.kata_name }}
+          python -m unittest test/${{ matrix.kata_name }}
 
-  CreateMap:
+  StoreTestId:
     needs: Test
     runs-on: ubuntu-latest
     if: always()
