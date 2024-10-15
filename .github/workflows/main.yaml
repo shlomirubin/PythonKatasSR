@@ -32,7 +32,7 @@ jobs:
         id: kata_tests
         working-directory: katas/test
         run: |  
-          kata_json=$(ls test_*.py | | sed 's/^test_//' | jq -R -s -c 'split("\n")[:-1]')
+          kata_json=$(ls test_*.py | sed 's/^test_//' | jq -R -s -c 'split("\n")[:-1]')
           echo "Katas: $kata_json"
           echo "tests=$kata_json" >> $GITHUB_OUTPUT
 
