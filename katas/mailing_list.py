@@ -1,13 +1,10 @@
 def add_to_list(emails_str, new_email):
-    """
-    Adds the new_email to an existing emails_str.
-    """
+    if emails_str:
+        return emails_str + ", " + new_email
 
 
 def mailing_list(emails):
-    """
-    Splits a comma-separated string of email addresses into a list of individual emails.
-    """
+    return emails.split(", ")
 
 
 email_string = "alice@example.com,bob@example.com,charlie@example.com"
@@ -20,7 +17,7 @@ print(result)  # Expected output: ['john.doe@example.com']
 
 email_string = "jane@example.com,,doe@example.com"
 result = mailing_list(email_string)
-print(result)  # Expected output: ['jane@example.com', '', 'doe@example.com']
+print(result)  # Expected output: ['jane@example.com', '' 'doe@example.com']
 
 emails = add_to_list("alice@example.com,bob@example.com", "dave@example.com")
 print(emails)  # Expected output: 'alice@example.com,bob@example.com,dave@example.com'

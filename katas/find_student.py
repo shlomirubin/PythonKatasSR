@@ -1,9 +1,8 @@
 def find_student(student_list, student_name):
-    """
-    Checks if a student is in the list of enrolled students.
-    """
-
-
+    if student_name in student_list:
+        return True
+    else:
+        return False
 students = ["Alice", "Bob", "Charlie", "Diana"]
 
 result = find_student(students, "Alice")

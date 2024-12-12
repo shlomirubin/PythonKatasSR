@@ -1,7 +1,8 @@
 def can_drive(age, has_license):
-    """
-    Determines if a person can drive based on their age and license status.
-    """
+    if age > 18 and has_license == True:
+        return True
+    else:
+        return False
 
 
 result = can_drive(20, True)

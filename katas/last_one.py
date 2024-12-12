@@ -1,8 +1,6 @@
 def last_in_queue(queue):
-    """
-    Returns the last person in the queue.
-    """
 
+    print(queue[-1])
 
 
 queue_1 = ["Alice", "Bob", "Charlie"]

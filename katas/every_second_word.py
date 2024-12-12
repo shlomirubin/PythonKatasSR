@@ -1,8 +1,9 @@
-def get_alternate_words(sentence):
-    """
-    Returns every second word from the given sentence.
-    """
+from katas.test.test_file_exceptions import workdir
 
+
+def get_alternate_words(sentence):
+    words = sentence.split()
+    return words[1::2]
 
 sentence_1 = "The quick brown fox jumps over the lazy dog"
 print(get_alternate_words(sentence_1))  # ["quick", "fox", "over", "lazy"] expected
@@ -27,3 +28,4 @@ List slicing allows you to extract a portion of a list by specifying a start, st
 - 'stop' is the index where the slice ends (not included in the slice).
 - 'step' is the interval between each index in the slice. If 'step' is omitted, it defaults to 1.
 """
+

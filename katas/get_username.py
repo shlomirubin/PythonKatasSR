@@ -1,12 +1,7 @@
 def get_username(email):
-    """
-    Returns the username part of the email address, which is the part before the '@'.
-    For this exercise, assume that the email is always in the form:
-     <username>@example.com
+    at_index = email.index("@")
 
-    Which means, example.com is the only possible domain
-    """
-
+    return email[:at_index]
 
 email_1 = "alice.smith@example.com"
 print(get_username(email_1))  # "alice.smith" expected

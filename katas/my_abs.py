@@ -3,6 +3,10 @@ def my_abs(value):
     Returns the absolute value of the given number.
     """
 
+    if value <= 0:
+        return -value
+    return value
+
 
 # Test cases
 print(my_abs(-10))  # 10 expected
