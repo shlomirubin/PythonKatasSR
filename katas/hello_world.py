@@ -1,7 +1,5 @@
 def hello_world():
-    """
-    Returns the string "hello world".
-    """
+    return "Hello world"
 
 
 if __name__ == '__main__':

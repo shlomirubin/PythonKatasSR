@@ -1,7 +1,11 @@
 def has_pattern(text):
-    """
-    Checks if the text contains the specific pattern "abc" at the start.
-    """
+    onlyfirst = text[0:3]
+    if onlyfirst == 'abc':
+        return True
+    else:
+        return False
+
+
 
 
 

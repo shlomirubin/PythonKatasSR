@@ -2,7 +2,8 @@ def split_full_name(full_name):
     """
     Splits a full name into first and last name and returns them as a tuple.
     """
-
+    x = full_name.split()
+    return x
 
 full_name = "Alice Johnson"
 first_name, last_name = split_full_name(full_name)

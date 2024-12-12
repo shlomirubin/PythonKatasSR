@@ -3,6 +3,10 @@ def fraction_of_float(number):
     Returns the fractional part of a given float number.
     """
 
+    x = str(number)
+    y = x.index('.')
+    return "0" + x[y:]
+
 
 result = fraction_of_float(12.345)
 print(result)  # Expected output: 0.345

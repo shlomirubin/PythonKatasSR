@@ -10,6 +10,13 @@ def verbing(word):
     swimming -> swimmingly
     """
 
+    if word.endswith("ing"):
+        return word + 'ly'
+    if len(word) >= 3:
+        return word + 'ing'
+    else:
+        return word
+
 
 print(verbing('walk'))      # Expected output: teaching
 print(verbing('swimming'))  # Expected output: swimmingly

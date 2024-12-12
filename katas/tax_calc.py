@@ -1,7 +1,5 @@
 def tax_calc(income1, income2, income3):
-    """
-    Calculates the total tax for three given income values based on specific tax rates.
-    """
+    return int(income1)*0.1 + int(income2)*0.15 + int(income3)*0.2
 
 
 total_tax = tax_calc(50000, 80000, 120000)

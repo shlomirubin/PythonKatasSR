@@ -1,7 +1,5 @@
 def greeting(name):
-    """
-    Returns a personalized greeting message with the given `name`.
-    """
+    return 'Hello '+name
 
 
 greeting_msg = greeting('David')

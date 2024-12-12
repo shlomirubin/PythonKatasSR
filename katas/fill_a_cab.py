@@ -1,7 +1,10 @@
 def fill_a_cab(passengers, seats):
-    """
-    Returns True if the number of passengers can fit in the cab seats, False otherwise.
-    """
+    if passengers > seats:
+        return False
+    if passengers < seats:
+        return True
+    if passengers == seats:
+        return True
 
 
 print(fill_a_cab(3, 4))  # True expected

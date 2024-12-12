@@ -1,8 +1,11 @@
 def is_palindrome(number):
-    str(number)
-    if str(number) == str(number[::-1]):
+    # Convert number to string
+    number_str = str(number)
+    # Check if the string is equal to its reverse
+    if number_str == number_str[::-1]:
         return True
-
+    else:
+        return False
 
 
 result = is_palindrome(12321)

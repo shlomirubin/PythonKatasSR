@@ -15,19 +15,19 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 > - Click double SHIFT to search katas files in PyCharm.
 
 
-- [ ] `hello_world.py`
-- [ ] `hello_world2.py`
-- [ ] `numbers_division.py`
-- [ ] `personalized_hello_world.py`
-- [ ] `age_message_fix.py`
-- [ ] `get_seconds.py`
-- [ ] `get_century.py`
-- [ ] `bad_average.py`
-- [ ] `calculator1.py`
-- [ ] `calculator2.py`
-- [ ] `tax_calc.py`
-- [ ] `bad_function.py`
-- [ ] `fill_a_cab.py`
+- [X] `hello_world.py`
+- [X] `hello_world2.py`
+- [X] `numbers_division.py`
+- [X] `personalized_hello_world.py`
+- [X] `age_message_fix.py`
+- [X] `get_seconds.py`
+- [X] `get_century.py`
+- [X] `bad_average.py`
+- [X] `calculator1.py`
+- [X] `calculator2.py`
+- [X] `tax_calc.py`
+- [x] `bad_function.py`
+- [X] `fill_a_cab.py`
 - [X] `time_convertor.py`
 - [X] `is_even.py`
 - [X] `can_drive.py`
@@ -49,16 +49,15 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [X] `is_valid_password`
 - [X] `is_earlier.py`
 - [X] `num_of_digits.py`
-- [ ] `is_palindrome.py`
-- [ ] `has_pattern.py`
-
-- [ ] `is_subscriber_matching.py`
-- [ ] `get_first_n_words.py`
-- [ ] `clean_text.py`
-- [ ] `get_user_info.py`
-- [ ] `fraction_of_float.py`
-- [ ] `start_end.py`
-- [ ] `verbing.py`
+- [X] `is_palindrome.py`
+- [X] `has_pattern.py`
+- [X] `is_subscriber_matching.py`
+- [X] `get_first_n_words.py`
+- [X] `clean_text.py`
+- [X] `get_user_info.py`
+- [X] `fraction_of_float.py`
+- [X] `start_end.py`
+- [X] `verbing.py`
 - [ ] `print_list_elements.py`
 - [ ] `total_expense.py`
 - [ ] `min_max.py`
@@ -72,7 +71,6 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [ ] `max_difference.py`
 - [ ] `name_pair.py`
 - [ ] `validate_age.py`
-
 - [ ] `is_unique_str.py`     
 - [ ] `reformat_phone.py`    
 - [ ] `swap_in_list.py`      
@@ -93,8 +91,6 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [ ] `book_your_seat.py`    
 - [ ] `boarding_pass_code.py`
 - [ ] `process_payment.py`
-
-
 - [ ] `lets_vote.py`       
 - [ ] `in_the_club.py`     
 - [ ] `top_student.py`     
@@ -104,9 +100,7 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [ ] `folder_count.py`    
 - [ ] `secret_club.py`     
 - [ ] `dicts_in_order.py`  
-- [ ] `they_legit.py`  
-
-
+- [ ] `they_legit.py`
 - [ ] `count_even_numbers.py`
 - [ ] `do_twice.py`          
 - [ ] `list_rotation.py`     
@@ -119,8 +113,6 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [ ] `best_student.py`
 - [ ] `pair_match.py`
 - [ ] `merge_dict.py`
-
-
 - [ ] `file_exceptions.py`
 - [ ] `most_frequent_name.py`
 - [ ] `car.py`
@@ -128,9 +120,6 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [ ] `cache_list.py`
 - [ ] `simple_queue.py`
 - [ ] `tree.py`
-
-
-
 - [ ] `sorted_dict.py`
 - [ ] `youtube.py`
 - [ ] `bash.py`
